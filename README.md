@@ -87,7 +87,7 @@ Ingrese el número de la opción:
 **NetS3tM4st3r** incluye medidas de seguridad para evitar configuraciones de red no deseadas y limitar la exposición:
 
 1. **Política de Ejecución de Scripts**: Solo permite la ejecución de scripts durante el proceso de configuración y la restablece a `Restricted` al finalizar.
-2. **Control del Firewall**: Desactiva temporalmente el firewall durante la configuración y lo reactiva al terminar, asegurando la conectividad.
+2. **Control del Firewall**: Desactiva temporalmente el firewall durante la configuración y lo reactiva al terminar, asegurando la conectividad y reforzando la seguridad.
 
 ## Advertencia
 
