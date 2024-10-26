@@ -91,7 +91,7 @@ Ingrese el número de la opción:
 
 ## Advertencia
 
-Este script requiere permisos de administrador y es para configuraciones de red fundamentales. Se recomienda **ejecutar bajo supervisión** y **en entornos de prueba** antes de su uso en entornos de producción.
+Este script requiere permisos de administrador y es para configuraciones de red fundamentales. Se recomienda **ejecutar bajo supervisión** y **con el conocimiento técnico correspondiente** antes de su uso en entornos de producción.
 
 ## Contribución
 
