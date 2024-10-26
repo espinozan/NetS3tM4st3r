@@ -13,7 +13,7 @@ Aquí tienes la documentación completa para un archivo `README.md` en GitHub, p
 
 ## Descripción
 
-**NetS3tM4st3r** es un conjunto de scripts en PowerShell diseñado para automatizar configuraciones avanzadas de red en sistemas Windows. Este proyecto permite gestionar la configuración de IP (cambio entre DHCP y IP estática) y DNS (cambio entre DHCP y DNS manual) de manera fácil y segura, con un enfoque modular y robusto. **NetS3tM4st3r** incluye funcionalidades de seguridad avanzadas, como la desactivación temporal del firewall y la activación de la ejecución de scripts solo durante el proceso de configuración.
+**NetS3tM4st3r** es un conjunto de scripts en PowerShell diseñado para automatizar configuraciones avanzadas de red en sistemas Windows. Este proyecto permite gestionar la configuración de IP (cambio entre DHCP y IP estática) y DNS (cambio entre DHCP y DNS manual) de manera fácil y segura, con un enfoque modular y robusto. **NetS3tM4st3r** incluye funcionalidades de seguridad avanzadas, como la desactivación temporal del firewall y la activación de la ejecución de scripts solo durante el proceso de configuración, después de realizar la configuracion automaticamente activa el firewall y desactiva la ejecucion de scripts de terceros para restablecer la seguridad del sistema aumentando su estabilidad.
 
 > **Autor**: [espinozan](https://github.com/espinozan)
 
