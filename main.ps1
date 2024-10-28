@@ -8,14 +8,14 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 # Función para mostrar el menú y procesar la selección del usuario
 function Show-Menu {
     cls
-    Write-Output "Seleccione una opción:"
+    Write-Output "Seleccione una opcion:"
     Write-Output "1. Configurar IP a DHCP"
     Write-Output "2. Configurar IP manualmente"
     Write-Output "3. Configurar DNS a DHCP"
     Write-Output "4. Configurar DNS manualmente"
     Write-Output "5. Salir"
     
-    $option = Read-Host "Ingrese el número de la opción"
+    $option = Read-Host "Ingrese el numero de la opcion"
     switch ($option) {
         1 { .\ConfigurarIPDHCP.ps1 }
         2 { .\ConfigurarIPManual.ps1 }
@@ -26,7 +26,7 @@ function Show-Menu {
             return
         }
         Default { 
-            Write-Output "Opción inválida, intente nuevamente."
+            Write-Output "Opcion invalida, intente nuevamente."
             Show-Menu
         }
     }
@@ -40,5 +40,5 @@ Write-Output "Reactivando el firewall..."
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 
 # Restaurar la política de ejecución de scripts
-Write-Output "Restaurando política de ejecución de scripts..."
+Write-Output "Restaurando politica de ejecucion de scripts..."
 Set-ExecutionPolicy Restricted -Scope Process -Force
