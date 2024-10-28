@@ -1,7 +1,5 @@
-# NetS3tM4st3r
+### NetS3tM4st3r
 permite gestionar la configuración de IP (cambio entre DHCP y IP estática) y DNS (cambio entre DHCP y DNS manual) de manera fácil y segura.
-
-Aquí tienes la documentación completa para un archivo `README.md` en GitHub, pensada para tu repositorio del proyecto **NetS3tM4st3r**.
 
 ---
 
